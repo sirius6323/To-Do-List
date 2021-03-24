@@ -19,6 +19,8 @@ body {
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* Container styling */
+
 .container {
 	padding: 20px;
 	width: 50%;
@@ -30,6 +32,8 @@ body {
 	border-radius: 5px;
 }
 
+/* Form styling */
+
 form {
 	display: inline-block;
 }
@@ -39,6 +43,8 @@ input {
 	width: 300px;
 	line-height: 1.5em;
 }
+
+/* Button styling */
 
 #button {
 	display: inline-block;
@@ -54,6 +60,8 @@ input {
 	cursor: pointer;
 	opacity: 0.8;
 }
+
+/* List styling */
 
 ol {
 	padding-left: 20px;
@@ -72,6 +80,8 @@ ol li:nth-child(even) {
 	border-radius: 5px;
 }
 
+/* Strike through styling */
+
 .strike {
 	text-decoration: line-through;
 }
@@ -80,9 +90,12 @@ li:hover {
 	cursor: pointer;
 }
 
+/* Delete class to delete list item */
 .delete {
 	display: none;
 }
+
+/* "X" Delete list item styling */
 
 li > crossOutButton {
 	background: none;
@@ -91,6 +104,8 @@ li > crossOutButton {
 	color: #f05053;
 	font-weight: 900;
 }
+
+/* Media query */
 
 @media all and (max-width: 850px) {
 	body {
