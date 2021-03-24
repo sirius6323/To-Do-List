@@ -31,7 +31,7 @@ function newItem() {
 	// 3(ii). Deletes list item after clicking X
 	crossOutButton.on('click', deleteListItem);
 
-	// 3(iii). Function that adds delete class to list item
+	// 3(iii). Function that adds the delete class to list item
 	function deleteListItem() {
 		li.addClass('delete');
 	}
