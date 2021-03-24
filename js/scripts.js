@@ -3,14 +3,16 @@
 function newItem() {
 	// 1. Adds a new item to the list of items
 
-	let li = $('<li></li');
+	let li = $('<li></li>');
 	let inputValue = $('#input').val();
+	let input = $('#input');
 	li.append(inputValue);
 
 	if (inputValue === '') {
 		alert('You must enter an item to your list!');
 	} else {
 		$('#list').append(li);
+		input.val('');
 	}
 
 	// 2. Crosses out an item off the list
